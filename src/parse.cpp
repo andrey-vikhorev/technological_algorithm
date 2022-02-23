@@ -30,7 +30,7 @@ const std::string& CmdParser::getCmdOption(const std::string &option) const
 	{
 		return *itr;
 	}
-	static const std::string empty_string(" "); //по краю. благо ,что static ^)
+	static const std::string empty_string(" ");
 	return empty_string;
 }
 
@@ -43,7 +43,7 @@ const std::string& CmdParser::getAlgFileName() const
 		itr = itr - 2;
 		return *itr;
 	}
-	static const std::string empty_string(" "); //по краю. благо ,что static ^)
+	static const std::string empty_string(" ");
 	return empty_string;
 
 }
@@ -57,7 +57,7 @@ const std::string& CmdParser::getVarFileName() const
 		itr = itr - 1;
 		return *itr;
 	}
-	static const std::string empty_string(" "); //по краю. благо ,что static ^)
+	static const std::string empty_string(" ");
 	return empty_string;
 }
 
